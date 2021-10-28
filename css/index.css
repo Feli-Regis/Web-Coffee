@@ -74,7 +74,7 @@ nav ul li a:hover {
 #section-main-image h1 {
   color: rgba(255, 255, 255, .7);
   margin: 0;
-  font-size: 120px;
+  font-size: 100px;
 }
 
 /* SECTION COFFEE */
@@ -92,7 +92,7 @@ nav ul li a:hover {
 }
 
 #section-coffee p {
-  font-size: 37px;
+  font-size: 27px;
 }
 
 .article-section-coffee {
@@ -106,7 +106,7 @@ nav ul li a:hover {
 
 .product-grid h3{
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .product {
@@ -114,7 +114,7 @@ nav ul li a:hover {
 }
 
 .product img {
-  width: 90%;
+  width: 80%;
 }
 
 /* FOOTER CONTACT */
@@ -127,7 +127,7 @@ nav ul li a:hover {
 
 #footer-contact .container h2 {
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 #footer-contact .contact-data {
