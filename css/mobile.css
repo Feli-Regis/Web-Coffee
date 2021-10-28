@@ -13,8 +13,13 @@ nav {
     padding: 5px 0 0 0;
 }
 
+nav .logo {
+    display: flex;
+    justify-content: center;
+  }
+
 nav .logo img {
-    width: 150px;
+    width: 130px;
 }
 
 nav ul {
