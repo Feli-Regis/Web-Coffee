@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 50%;
+  padding: 60px 0px;
+}
+
+/* MENU: NAVBAR/HEADER */
+nav .logo {
+  display: flex;
+  justify-content: center;
+}
+
+nav .logo img{
+  width: 10%;
+}
+
+nav {
+  background-color: #EEEEEE;
+  padding: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 25%;
+}
+
+nav ul li a {
+  color: rgb(140, 98, 57);
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  border: 1px solid;
+  border-color: rgba(213, 151, 65, 0.3);
+  font-weight: bold;
+}
+
+
+/* SECTION MAIN IMAGE */
+
+#section-main-image {
+  height: 90vh;
+  background-image: url("https://images.unsplash.com/photo-1463797221720-6b07e6426c24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2071&q=80");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-main-image h1 {
+  color: rgba(255, 255, 255, .7);
+  margin: 0;
+  font-size: 120px;
+}
+
+/* SECTION COFFEE */
+
+#section-coffee {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-coffee h2 {
+  margin: 40px 0 20px 0;
+  font-size: 40px;
+}
+
+#section-coffee p {
+  font-size: 37px;
+}
+
+.article-section-coffee {
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.product-grid h3{
+  text-align: center;
+  font-size: 30px;
+}
+
+.product {
+  padding: 0 10px;
+}
+
+.product img {
+  width: 90%;
+}
+
+/* FOOTER CONTACT */
+#footer-contact {
+  background-color: #58462c;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+#footer-contact .container h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+#footer-contact .contact-data {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+.contact-form form {
+  text-align: right;
+}
+
+.contact-form form .form-control {
+  padding: 10px 0;
+}
+
+.contact-form form .form-control label {
+  margin-right: 15px;
+}
+
+.contact-form form .input {
+  margin-top: 15px;
+  color: #58462c;
+  padding: 2px 30px;
+  font-size: 15px
+}
+
